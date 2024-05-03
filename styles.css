@@ -1,10 +1,15 @@
+/* BASIC STYLING */
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     text-align: center;
     font-family: "Lato", sans-serif;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, h4, p {
     margin: 0;
 }
 
@@ -27,6 +32,7 @@ h3 {
     margin: 0 auto;
 }
 
+/* HERO  */
 #hero-section {
     height: 350px;
     background-image: url("images/denver.png");
@@ -44,6 +50,7 @@ h3 {
     border-radius: 8px;
 }
 
+/* ACTIVITY SECTION */
 #activity-section {
     height: 380px;
     background: #F8E5EE;
@@ -76,4 +83,44 @@ h3 {
 
 .activity-card-title {
     font-weight: 700;
+}
+
+/* GUIDE SECTION */
+
+#guide-section {
+    height: 400px;
+    background: #708D81;
+    color: #001427;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#guide-card {
+    width: 450px;
+    height: 300px;
+    background: #F4D58D;
+    padding: 13px;
+    border: 3px solid #F8E5EE;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#guide-image {
+    height: 230px;
+    border-radius: 10px;
+}
+
+#guide-text {
+    width: 40%;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#guide-quote {
+    font-style: italic;
 }
