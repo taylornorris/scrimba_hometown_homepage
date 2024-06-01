@@ -1,3 +1,3 @@
 # scrimba_hometown_homepage
 
-Building the first solo project in the Scrimba front end developer course.
+Scrimba Solo Project 1 - Hometown Homepage
